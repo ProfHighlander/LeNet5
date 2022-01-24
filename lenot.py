@@ -161,6 +161,7 @@ if args.option == "train" or args.option == "both":
             print("Saved to", args.loadfile)
 
 if args.visualize:
+    #Git change for fun
     visualize(model, layer=int(args.visualize))
 
 print("End")
